@@ -14,7 +14,9 @@ class App extends Component {
     friends: friends,
     topScore: 0,
     score: 0,
-    unselected: friends
+    unselectedPicture: friends
+    
+    
   }
 
   shuffleArray = array => {
